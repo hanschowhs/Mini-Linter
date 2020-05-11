@@ -1,5 +1,5 @@
 # Mini-Linter
-Linting (a process by which text is evaluated and improved by an application) using simple JavaScript. Based on a mini-project done on the JavaScript course at Codecademy.
+Linting (a process by which text is evaluated and improved by an application) using simple JavaScript. Based on a mini-project completed at Codecademy for my JavaScript course.
 
 Mini Linter
 
