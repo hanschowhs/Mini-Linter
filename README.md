@@ -1,5 +1,5 @@
 # Mini-Linter
-Linting (a process by which text is evaluated and improved by an application) using simple JavaScript. Based on a mini-project completed at Codecademy for my JavaScript course.
+Linting (a process by which text is evaluated and improved by an application) using simple JavaScript. This is a mini-project completed at Codecademy for my JavaScript course.
 
 
 Mini Linter
@@ -7,8 +7,6 @@ Mini Linter
 In this project, you will use what you know about iterating over arrays to improve the quality of a paragraph and gather some information about that paragraph.
 
 This is the same type of work that word processing software does. Additionally, you may have heard of linting, a process by which text is evaluated and improved by an application. In this project, you will create a miniature version of a linter using array methods that you have learned.
-
-Linting (a process by which text is evaluated and improved by an application) using simple JavaScript. Based on a mini-project done on the JavaScript course at Codecademy.
 
 
 Tasks
@@ -23,7 +21,7 @@ Log how many words there are in this story to the console.
 There is an array of words that are unnecessary. Iterate over your array to filter out these words. Save the remaining words in an array called betterWords. There are several ways that you could achieve this.
 
 4.
-There is an array of words called overusedWords. These are words overused in this story. You want to let the user of your program know how many times they have used these overused words. There are two ways to achieve this. Try it on your own first. If you need help, consult the hint.
+There is an array of words called overusedWords. These are words overused in this story. You want to let the user of your program know how many times they have used these overused words. There are two ways to achieve this.
 
 5.
 Now, count how many sentences are in the paragraph.
