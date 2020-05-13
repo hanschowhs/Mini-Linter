@@ -151,14 +151,20 @@ Output:
   'Red',
   'Lighthouse,',
   ... 88 more items ]
+
 There are 188 words in this story.
+
 true
+
 [ 'literally',
   'actually',
   'extremely',
   'actually',
   'extremely',
-  'actually' ] 'The number of unnecessary words in the story is 6.'
+  'actually' ] 
+ 
+ 'The number of unnecessary words in the story is 6.'
+
 [ 'Last',
   'weekend,',
   'I',
@@ -259,7 +265,9 @@ true
   'I',
   'began',
   'my',
-  ... 82 more items ] 'The are 182 words remaining in the story after filtering out the unnessary words.'
+  ... 82 more items ]
+  
+'The are 182 words remaining in the story after filtering out the unnessary words.'
 There are 8 overused words in the story.
 
 reallyFreq = 2
@@ -272,6 +280,7 @@ basicallyFreq = 1
 d
 There are 12 sentences in this paragraph.
 There are 12 sentences in this paragraph.
+
 Word count: 188
 Sentence count: 12
 reallyFreq = 2 
