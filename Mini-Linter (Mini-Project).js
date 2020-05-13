@@ -5,11 +5,13 @@ let overusedWords = ['really', 'very', 'basically'];
 let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 
 // 1) We want to gather some information about the individual words and sentences in the above string 'story'. Let’s split the string into individual words and save them in a new array called storyWords.
+
 let storyWords = story.split(' ');
 
 console.log(storyWords); // Some words have the comma attached to them.
 
 // 2) Log how many words there are in this story to the console.
+
 console.log(`There are ${storyWords.length} words in this story.`); // 188 words. Note the use of backticks (and not quotes) when you are using the Template Literal to interpolate strings.
 
 // 3)
@@ -42,6 +44,7 @@ let betterWords = storyWords.filter(
 console.log(betterWords, `The are ${betterWords.length} words remaining in the story after filtering out the unnessary words.`); // 182 words indeed.
 
 // 4) Below is my original codes for filtering out the overused words and thereafter, counting them. Technically correct but not exactly what the question is asking for. The question asks for the number of times EACH and EVERY (of the three) overused word is used, not the total frequency of all overused words.
+
 let freqOfOverusedWords = storyWords.filter(
   z => overusedWords.includes(z)
 );
@@ -95,7 +98,9 @@ The .slice() method is often used to slice the elements in an array but since a 
 // Test code to demonstrate the use of .slice(-1) for a string array of individual characters:
 let z = 'TestWord'
 console.log(z.slice(-1)); // 'd'.
+
 // 5A) Method 1:
+
 let sentence1 = 0;
 
 storyWords.forEach(
@@ -108,6 +113,7 @@ storyWords.forEach(
 console.log(`There are ${sentence1} sentences in this paragraph.`);
 
 // 5A) Method 2:
+
 let sentence2 = 0;
 
 for (word of storyWords) {
@@ -118,6 +124,7 @@ for (word of storyWords) {
 console.log(`There are ${sentence2} sentences in this paragraph.`);
 
 // 6A) Method 1 - Using the Arrow Function syntax. If a function takes zero or multiple parameters, parentheses are required. Both the curly braces and the 'return' keyword cannot be removed because the function is NOT a single-line block.
+
 const counts = (c1, c2, c3, c4, c5) => {
   console.log('Word count: ' + c1); // NOTE: '+' does not add a space like ',' does (right below) so before '+', must add a space after ': '.
   console.log('Sentence count:', c2); // NOTE: ',' will add a space.
@@ -126,6 +133,7 @@ const counts = (c1, c2, c3, c4, c5) => {
 counts(storyWords.length, sentence1, reallyFreq, veryFreq, basicallyFreq)
 
 // 6B) Method 2. Good old Template Literal to interpolate variables into a string.
+
 console.log(`
 Word count = ${storyWords.length}
 Sentence count = ${sentence1}
@@ -135,5 +143,7 @@ basicallyFreq = ${basicallyFreq}
 `);
 
 // 7) From JS Doc: "The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. Syntax: arr.join([separator]). separator Optional. Specifies a string to separate each pair of adjacent elements of the array. The separator is converted to a string if necessary. If omitted, the array elements are separated with a comma (","). If separator is an empty string, all elements are joined without any characters in between them."
+
 console.log(betterWords.join(' '));
 // NOTE: betterWords only removed the unnecessary words. There are still the overused words such as 'really' in the third sentence. This could be the next improvement to be made.
+
