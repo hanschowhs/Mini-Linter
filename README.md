@@ -29,9 +29,13 @@ This may seem tricky, but remember that all of the sentences in this paragraph e
 
 6.
 Log these items to the console:
+
 •	The word count
+
 •	The sentence count
+
 •	The number of times each overused word appears
+
 You could choose to simply log them one by one or, for a challenge, create a function that logs all of them with some formatting.
 
 7.
