@@ -48,7 +48,7 @@ Here are some ideas:
 2.	Write a function that finds the word that appears the greatest number of times.
 3.	Replaced overused words with something else.
 
-Output:
+Code Output:
 
 [ 'Last', 'weekend,', 'I', 'took', 'literally', 'the', 'most', 'beautiful', 'bike', 'ride', 'of', 'my', 'life.', 'The', 'route', 'is', 'called', '"The', '9W', 'to', 'Nyack"', 'and', 'it', 'actually', 'stretches', 'all', 'the', 'way', 'from', 'Riverside', 'Park', 'in', 'Manhattan', 'to', 'South', 'Nyack,', 'New', 'Jersey.', 'It's', 'really', 'an', 'adventure', 'from', 'beginning', 'to', 'end!', 'It', 'is', 'a', '48', 'mile', 'loop', 'and', 'it', 'basically', 'took', 'me', 'an', 'entire', 'day.', 'I', 'stopped', 'at', 'Riverbank', 'State', 'Park', 'to', 'take', 'some', 'extremely', 'artsy', 'photos.', 'It', 'was', 'a', 'short', 'stop,', 'though,', 'because', 'I', 'had', 'a', 'really', 'long', 'way', 'left', 'to', 'go.', 'After', 'a', 'quick', 'photo', 'op', 'at', 'the', 'very', 'popular', 'Little', 'Red', 'Lighthouse,', ... 88 more items ]
 
